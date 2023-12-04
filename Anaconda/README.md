@@ -10,45 +10,45 @@
 
 
 
-![download](D:\BaiduSyncdisk\tutorial\Anaconda\images\download.png)
+![download](images/download.png)
 
 这里我选择在清华镜像网站下载2020.02版本的windows 64位安装包
 
 ## 2、安装选项
 - 找到下载的安装包，双击运行
 
-![double click](D:\BaiduSyncdisk\tutorial\Anaconda\images\double click.png)
+![double click](images/double click.png)
 
 - 点击next
 
-![next](D:\BaiduSyncdisk\tutorial\Anaconda\images\next.png)
+![next](images/next.png)
 
 - 选择 I agree
 
-![agree](D:\BaiduSyncdisk\tutorial\Anaconda\images\agree.png)
+![agree](images/agree.png)
 
 - 选择only for me 还是for all users
 
 ​	我这里选了for all users，需要管理员权限
 
-![for all users](D:\BaiduSyncdisk\tutorial\Anaconda\images\for all users.png)
+![for all users](images/for all users.png)
 
 - 修改安装路径
 
 我这里选择安装在D盘Anaconda3文件夹下
 
-![modify the install path](D:\BaiduSyncdisk\tutorial\Anaconda\images\modify the install path.png)
+![modify the install path](images/modify the install path.png)
 
 - 添加环境变量
 
-![add to path](D:\BaiduSyncdisk\tutorial\Anaconda\images\add to path.png)
+![add to path](images/add to path.png)
 
 - 安装完成
 
-![completed](D:\BaiduSyncdisk\tutorial\Anaconda\images\completed.png)
+![completed](images/completed.png)
 
 - 结束
-![finish](D:\BaiduSyncdisk\tutorial\Anaconda\images\finish.png)
+![finish](images/finish.png)
 
 # 二、换源
 
@@ -105,7 +105,7 @@ Miniconda 安装包可以到 https://mirrors.tuna.tsinghua.edu.cn/anaconda/minic
 
 - 首先打开anaconda prompt
 
-![2.1 open prompt](D:\BaiduSyncdisk\tutorial\Anaconda\images\2.1 open prompt.png)
+![2.1 open prompt](images/2.1 open prompt.png)
 
 - 输入命令
 
@@ -113,15 +113,15 @@ Miniconda 安装包可以到 https://mirrors.tuna.tsinghua.edu.cn/anaconda/minic
 conda config --set show_channel_urls yes
 ```
 
-![2.2 show_channel_urls](D:\BaiduSyncdisk\tutorial\Anaconda\images\2.2 show_channel_urls.png)
+![2.2 show_channel_urls](images/2.2 show_channel_urls.png)
 
 - 即可在C:\Users\ "你的用户名"下找到.condarc文件
 
-![2.3 find .condarc](D:\BaiduSyncdisk\tutorial\Anaconda\images\2.3 find .condarc.png)
+![2.3 find .condarc](images/2.3 find .condarc.png)
 
 - 用记事本打开并把官方给的内容粘贴到.condarc即可
 
-![2.4 replace](D:\BaiduSyncdisk\tutorial\Anaconda\images\2.4 replace.png)
+![2.4 replace](images/2.4 replace.png)
 
 - 清除索引缓存
 
@@ -130,4 +130,4 @@ conda config --set show_channel_urls yes
   conda clean -i
 ```
 
-  ![2.5 conda clean -i](D:\BaiduSyncdisk\tutorial\Anaconda\images\2.5 conda clean -i.png)
+  ![2.5 conda clean -i](images/2.5 conda clean -i.png)
