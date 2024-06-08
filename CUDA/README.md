@@ -4,7 +4,7 @@
 
 快捷键 win + R，然后输入 cmd
 
-![1.0 cmd](images/1.0 cmd.png)
+![1.0_cmd](images/1.0_cmd.png)
 
 然后输入如下指令：
 
